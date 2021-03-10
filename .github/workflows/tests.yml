@@ -13,7 +13,7 @@ jobs:
 
     - name: Composer dependencies
       run: composer install --no-ansi --no-interaction --no-scripts --no-suggest --no-progress --prefer-dist
-           composer require composer update
+           composer update
 
     - name: Prepare Laravel Application
       run: |
