@@ -13,7 +13,7 @@ jobs:
 
     - name: Composer dependencies
       run: composer install --prefer-dist
-           composer require composer update
+           composer require composer require composer update
 
     - name: Prepare Laravel Application
       run: |
